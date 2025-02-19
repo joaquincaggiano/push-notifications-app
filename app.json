@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "push-app",
-    "slug": "push-app",
+    "slug": "pushnotificationsapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bea5af0b-900d-4d94-b4fe-256082d7c406"
+      }
+    },
+    "owner": "joaquincaggianodev"
   }
 }
