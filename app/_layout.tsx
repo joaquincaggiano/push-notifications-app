@@ -34,6 +34,12 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack screenOptions={{ headerShadowVisible: false, contentStyle: { backgroundColor } }}>
         <Stack.Screen name="index" options={{ title: "Push Notification App" }} />
+        <Stack.Screen
+          name="chat/[id]"
+          options={{
+            title: "Chat",
+          }}
+        />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
